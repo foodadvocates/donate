@@ -125,39 +125,21 @@
 '  <form id="donation-form" class="donation-form" method="post" onsubmit="event.preventDefault(); collectPayment();">' + 
 '    <div class="errors hidden"></div>' + 
 '    <div class="section donation">' + 
-'      <h3>Support Community Food Advocates</h3>' + 
-'      <div class="field radio 45058 required" >' + 
-'<label for="45058"><input id="45058" name="donation-level" class="required" type="radio" value="25000.000000" maxlength="255"></input><span class="label">$25,000.00 - Champion</span></label>' + 
-'</div>' + 
-'<div class="field radio 45059 required" >' + 
-'<label for="45059"><input id="45059" name="donation-level" class="required" type="radio" value="15000.000000" maxlength="255"></input><span class="label">$15,000.00 - Ambassador</span></label>' + 
-'</div>' + 
-'<div class="field radio 45061 required" >' + 
-'<label for="45061"><input id="45061" name="donation-level" class="required" type="radio" value="10000.000000" maxlength="255"></input><span class="label">$10,000.00 - Sponsor</span></label>' + 
-'</div>' + 
-'<div class="field radio 45057 required" >' + 
-'<label for="45057"><input id="45057" name="donation-level" class="required" type="radio" value="5000.000000" maxlength="255"></input><span class="label">$5,000.00 - Promoter</span></label>' + 
-'</div>' + 
-'<div class="field radio 45056 required" >' + 
-'<label for="45056"><input id="45056" name="donation-level" class="required" type="radio" value="2500.000000" maxlength="255"></input><span class="label">$2,500.00 - Sustainer</span></label>' + 
-'</div>' + 
-'<div class="field radio 43013 required" >' + 
-'<label for="43013"><input id="43013" name="donation-level" class="required" type="radio" value="1000.000000" maxlength="255"></input><span class="label">$1,000.00 - Advocate</span></label>' + 
-'</div>' + 
-'<div class="field radio 43011 required" >' + 
-'<label for="43011"><input id="43011" name="donation-level" class="required" type="radio" value="500.000000" maxlength="255"></input><span class="label">$500.00 - Partner</span></label>' + 
-'</div>' + 
-'<div class="field radio 45062 required" >' + 
-'<label for="45062"><input id="45062" name="donation-level" class="required" type="radio" value="250.000000" maxlength="255"></input><span class="label">$250.00 - Builder</span></label>' + 
+'      <h3>Donation</h3>' + 
+'      <div class="field radio 43008 required" >' + 
+'<label for="43008"><input id="43008" name="donation-level" class="required" type="radio" value="35.000000" maxlength="255"></input><span class="label">$35.00 - Friend</span></label>' + 
 '</div>' + 
 '<div class="field radio 45060 required" >' + 
 '<label for="45060"><input id="45060" name="donation-level" class="required" type="radio" value="100.000000" maxlength="255"></input><span class="label">$100.00 - Collaborator</span></label>' + 
 '</div>' + 
-'<div class="field radio 43009 required" >' + 
-'<label for="43009"><input id="43009" name="donation-level" class="required" type="radio" value="50.000000" maxlength="255"></input><span class="label">$50.00 - Ally</span></label>' + 
+'<div class="field radio 43011 required" >' + 
+'<label for="43011"><input id="43011" name="donation-level" class="required" type="radio" value="500.000000" maxlength="255"></input><span class="label">$500.00 - Partner</span></label>' + 
 '</div>' + 
-'<div class="field radio 43008 required" >' + 
-'<label for="43008"><input id="43008" name="donation-level" class="required" type="radio" value="35.000000" maxlength="255"></input><span class="label">$35.00 - Friend</span></label>' + 
+'<div class="field radio 43013 required" >' + 
+'<label for="43013"><input id="43013" name="donation-level" class="required" type="radio" value="1000.000000" maxlength="255"></input><span class="label">$1,000.00 - Advocate</span></label>' + 
+'</div>' + 
+'<div class="field radio 45056 required" >' + 
+'<label for="45056"><input id="45056" name="donation-level" class="required" type="radio" value="2500.000000" maxlength="255"></input><span class="label">$2,500.00 - Sustainer</span></label>' + 
 '</div>' + 
 '<div class="field radio other-option required" >' + 
 '<label for="other-option"><input id="other-option" name="donation-level" class="required" type="radio" maxlength="255"></input><span class="label">Other</span></label>' + 
@@ -568,7 +550,7 @@
 '</div>' + 
 '    <div class="section consent hidden">' + 
 '      <div class="field checkbox consent-all" >' + 
-'<label for="consent-all"><input id="consent-all" name="consent-all" type="checkbox" maxlength="255"></input><span class="label">I would like to receive or continue receiving updates from Community Food Advocates -NYC</span></label>' + 
+'<label for="consent-all"><input id="consent-all" name="consent-all" type="checkbox" maxlength="255"></input><span class="label">I would like to receive or continue receiving updates from Community Food Advocates - NYC</span></label>' + 
 '</div>' + 
 '<div class="field checkbox consent-email" style="display: none">' + 
 '<label for="consent-email"><input id="consent-email" name="consent-email" type="checkbox" checked="checked" maxlength="255"></input><span class="label">by email</span></label>' + 
@@ -620,7 +602,7 @@
                                                 function() {
                                                     SpreedlyExpress.onInit(function() { jQuery('#express-submit').attr('disabled', false); });
                                                     Bloomerang.initSpreedly = function() {
-                                                        SpreedlyExpress.init('OqOMv1ksjPtXEYHtCYsVXzEpCbR', { 'company_name': 'Community Food Advocates -NYC' });
+                                                        SpreedlyExpress.init('OqOMv1ksjPtXEYHtCYsVXzEpCbR', { 'company_name': 'Community Food Advocates - NYC' });
                                                     };
                                                     Bloomerang.initSpreedly();
                                                 });
